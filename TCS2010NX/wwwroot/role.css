@@ -1,0 +1,25 @@
+﻿.cr-role {
+    border: 1px solid black;
+    background: white;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding-top: 10px;
+}
+
+.edit-role {
+    border: 1px solid black;
+    background: white;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding-top: 10px;
+}
+
+.delete-role {
+    border: 1px solid black;
+    background: white;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding-top:10px;
+
+}
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1d7ec472a596426f840b73a360dd4a3d" Name="Diagram1" ZoomLevel="73">
+        <EntityTypeShape EntityType="ApplicationModel.C__EFMigrationsHistory" Width="1.5" PointX="13.5" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ApplicationModel.AspNetRoleClaim" Width="1.5" PointX="5.5" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ApplicationModel.AspNetRole" Width="1.5" PointX="0.625" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ApplicationModel.AspNetUserClaim" Width="1.5" PointX="9.875" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="ApplicationModel.AspNetUserLogin" Width="1.5" PointX="11.875" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ApplicationModel.AspNetUser" Width="1.5" PointX="7.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="ApplicationModel.AspNetUserToken" Width="1.5" PointX="3.25" PointY="3.25" IsExpanded="true" />
+        <AssociationConnector Association="ApplicationModel.FK_AspNetRoleClaims_AspNetRoles_RoleId" ManuallyRouted="false" />
+        <AssociationConnector Association="ApplicationModel.FK_AspNetUserClaims_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="ApplicationModel.FK_AspNetUserLogins_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="ApplicationModel.FK_AspNetUserTokens_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="ApplicationModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,33 @@
+﻿
+label {
+    font-size: larger;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    border: 1px solid black;
+    background: white;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 360px;
+    margin-right: 200px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.form-group1{
+    text-align:center;
+}
+.form-group2 {
+    text-align: center;
+}
+.btn btn-primary {
+    text-align: center;
+    background-color: green;
+    color: green;
+}
